@@ -11,11 +11,11 @@ total_count = df['age'].count()
 
 print("The sum of the column is:", total_sum, total_count)
 
-# # print("\n(1)全部数据：")
-# # print(df.iloc[:,:].values)
+# print("\n(1)全部数据：") # user数据量太大，这里中间数据显示不出来
+# print(df.iloc[:,:].values)
 
-# # print("\n(2)第2行第3列的值：")
-# # print(df.iloc[1,2])
+print("\n(2)第2行第3列的值：")
+print(df.iloc[1,2])
 
 # # # print("\n(3)第3行数据：")
 # # # print(df.iloc[2].values)
