@@ -1,14 +1,15 @@
 
-# import pandas as pd
+import pandas as pd
 
-# # df = pd.read_excel("data-test.xlsx")
+# df = pd.read_excel("data-test.xlsx")
 
-# df = pd.read_csv("_user__202405151843.csv")
+df = pd.read_csv("_user__202405151843.csv")
 
 # # 计算一列数字的总和
-# total_sum = df['age'].count()
+total_sum = df['age'].sum()
+total_count = df['age'].count()
 
-# print("The sum of the column is:", total_sum)
+print("The sum of the column is:", total_sum, total_count)
 
 # # print("\n(1)全部数据：")
 # # print(df.iloc[:,:].values)
@@ -29,10 +30,6 @@
 # # print(df.iloc[1:3,2:4].values)
 
 
-
-import tushare as ts
-
-ts.get_apis()
 
 # ts.get_hist_data('600848')
 # ts.get_today_all()
