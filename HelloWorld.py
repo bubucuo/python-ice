@@ -1,4 +1,7 @@
-count = 10
-if(count%2):
-    print('hello')
-    print('world')
+x = int(input())
+y = int(input())
+
+print(x*y)
+
+# 请在下面输入代码
+# 请在下面输入代码
